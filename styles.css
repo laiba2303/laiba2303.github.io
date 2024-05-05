@@ -68,5 +68,6 @@ main {
 }
 
 .product-details p {
-    margin: 10px 0;
+    margin: 3px 0;
+    text-align: left;
 }

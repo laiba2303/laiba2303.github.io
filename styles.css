@@ -21,9 +21,9 @@ footer {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
-    padding: 20px;
+    padding: 5px;
 }
 
 .product {
@@ -59,7 +59,7 @@ main {
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .product-details img {
@@ -67,32 +67,28 @@ main {
     border-radius: 10px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
 
 .product-description {
     font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 .product-description p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .product-description h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 
 .product-description ul {
     list-style-type: disc;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .product-description ul li {
@@ -100,5 +96,5 @@ body {
 }
 
 .product-description p:last-child {
-    margin-top: 20px;
+    margin-top: 5px;
 }
